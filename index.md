@@ -334,7 +334,7 @@ append = runFn2 appendImpl
 
 - [purescript-halogen](https://github.com/slamdata/purescript-halogen)
 	- a bit more complex to grasp
-	- more oriented for autonomous components
+	- more oriented towards autonomous components
 
 ---
 
@@ -438,10 +438,12 @@ Monadic HTML DSL FTW via Smolder o/
 - Interoperability with JS
 --
 
+- the bases of the language are small
+--
+
 - Not JS
 --
 
-	- the bases of the language are small
 
 ---
 
@@ -450,7 +452,7 @@ Monadic HTML DSL FTW via Smolder o/
 - `<<<` instead of `.` for composition
 --
 
-- More generally, few frustrating differences in libraries
+- More generally, some frustrating differences with well known Haskell libraries and their PS equivalent
 --
 
 - Separation of concerns pushed a bit too far
