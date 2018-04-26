@@ -192,10 +192,10 @@ type User = { firstName :: String
 
 ```purescript
 type Person u
-	= Person { firstName :: String
-			 , lastName :: String
-			 | u
-			 }
+	= { firstName :: String
+	  , lastName :: String
+	  | u
+	  }
 
 greeting :: forall u. Person u -> String
 greeting { firstName, lastName } = fold [ "Hello, "
